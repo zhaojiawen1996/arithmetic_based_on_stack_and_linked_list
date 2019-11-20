@@ -38,15 +38,17 @@ int main(void)
 	Data_Stack_link_Print(Data_Stack);
 #endif
 	gets(str);
-	////puts(str);
-	//Op_Stack_Link_Init(&Op_Stack);
-	//Op_Stack_link_Push(&Op_Stack,c);
-	//Op_Stack_link_Print(Op_Stack);	
+#if UnDebug
+	puts(str);
+	Op_Stack_Link_Init(&Op_Stack);
+	Op_Stack_link_Push(&Op_Stack,c);
+	Op_Stack_link_Print(Op_Stack);	
     
-	//Linked_List_Init(&List);
-	//Linked_List_Incert(&List,5,0,1);
-	//Linked_List_Incert(&List,6,0,1);  
-	//Linked_List_Incert(&List,0,'(',0);
+	Linked_List_Init(&List);
+	Linked_List_Incert(&List,5,0,1);
+	Linked_List_Incert(&List,6,0,1);  
+	Linked_List_Incert(&List,0,'(',0);
+#endif
 	Cen_Trans_Back(str,&Op_Stack,&List);
 #if UnDebug
 	Linked_List_Show(List);
@@ -55,6 +57,8 @@ int main(void)
 	printf("The Final Result is:%d",result);
 #endif
 
-	//result = Prio_Judg(ch1,ch2);
-	//printf("%d\n",result);
+#if UnDebug
+	result = Prio_Judg(ch1,ch2);
+	printf("%d\n",result);
+#endif
 }  
