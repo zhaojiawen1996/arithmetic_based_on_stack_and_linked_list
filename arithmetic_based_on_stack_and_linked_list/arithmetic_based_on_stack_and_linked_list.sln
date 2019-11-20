@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arithmetic_based_on_stack_and_linked_list", "arithmetic_based_on_stack_and_linked_list\arithmetic_based_on_stack_and_linked_list.vcxproj", "{186054A7-8FA7-4ED7-9A33-0F4B9B9277C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{186054A7-8FA7-4ED7-9A33-0F4B9B9277C0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{186054A7-8FA7-4ED7-9A33-0F4B9B9277C0}.Debug|Win32.Build.0 = Debug|Win32
+		{186054A7-8FA7-4ED7-9A33-0F4B9B9277C0}.Release|Win32.ActiveCfg = Release|Win32
+		{186054A7-8FA7-4ED7-9A33-0F4B9B9277C0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
